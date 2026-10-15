@@ -1,0 +1,32 @@
+# Python bytecode y cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs y telemetria en tiempo real generados localmente
+telemetry_stream.jsonl
+*.log
+
+# Variables de entorno y credenciales sensibles
+.env
+.env.local
+.env.*.local
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+build/
+dist/
+
+# Configuraciones de editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
